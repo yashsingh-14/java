@@ -18,7 +18,8 @@ public class If_Else {
          System.out.println("5 is greater");
          if (6 > 7) {
              System.out.println("6 is smaller");
-         } else {
+         }
+          else {
              if (7 > 8) {
                  System.out.println("7 is smaller");
              } else {
