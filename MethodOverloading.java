@@ -1,4 +1,4 @@
- class MethodOverloading {
+class MethodOverloading {
 
 //     // Square Method
 //     public static int square(int num) {
@@ -32,6 +32,7 @@
 
 //     }
 
+
 public static int square(int a){
     return a*a;
 }
@@ -58,6 +59,7 @@ public static void main(String[] args) {
     System.out.println("multiply:"+multiply(30, 40));
     System.out.println("divide:"+divide(500, 10));
     System.out.println("subtract:"+subtract(100, 110));
+    
 }
 
 }
