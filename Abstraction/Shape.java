@@ -1,7 +1,16 @@
-package Abstraction;
+abstract class Shape{
 
-abstract class Shape {
+    protected String color;
 
-    abstract double area 
-    
+    public Shape(String color){
+        this.color = color;
+    }
+
+    abstract double area();
+    abstract double perimeter();
+
+    void describe(){
+        System.out.println("Shape Color:"+color);
+    }
+
 }
