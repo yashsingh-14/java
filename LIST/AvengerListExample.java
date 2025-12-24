@@ -1,4 +1,4 @@
-package Multithreading.LIST;
+package LIST;
 
 import java.util.ArrayList;
 import java.util.List;
